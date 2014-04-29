@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <title>Design Demo</title>
+    <meta charset='utf-8' content='text/html' http-equiv='content-type'>
+    <meta content='ie=edge,chrome=1' http-equiv='x-ua-compatible'>
+    <meta content='Brandy Mint LLC' name='author'>
+    <meta content='initial-scale=1.0,width=device-width,maximum-scale=1.0,user-scalable=no' name='viewport'>
+    <meta content='yes' name='apple-mobile-web-app-capable'>
+    <meta content='translucent-black' name='apple-mobile-web-app-status-bar-style'>
+    <link href='http://brandymint.github.io/traktorism_design/stylesheets/application.css' media='screen' rel='stylesheet' type='text/css'>
+  </head>
+  <body class='page'>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//demo.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//error.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//fontello/index.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//index.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//signup/index.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//signup/step2.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//signup/step3.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//signup/step4.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//signup/step5.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//tech/index.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//tech/show.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//userflow/signup.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//userflow/tech.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//demo_tehnokrat desktop wireframes.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//demo_tehnokrat desktop wireframes2.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//demo_tehnokrat desktop wireframes3.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//demo_tehnokrat desktop wireframes4.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//demo_tehnokrat desktop wireframes5.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>http://brandymint.github.io/traktorism_design//demo_tehnokrat desktop wireframes6.html</loc>
+        <lastmod>2014-04-29T00:00:00+04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    </urlset>
+  </body>
+</html>
+<script src='http://brandymint.github.io/traktorism_design/javascripts/application.js'></script>
