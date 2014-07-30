@@ -1,0 +1,38 @@
+!!! 5
+%html{lang: 'en', class: 'no-js'}
+  %head
+    = partial 'layouts/head'
+  %body{class: current_page.data.body_class || 'page'}
+    .navbar.navbar-default.navbar-static-top.application-navbar.navbar-min
+      .container
+        .pull-left
+          -#= link_to root_app_path do
+          = link_to "javascript:window.history.back()", class: 'navbar-brand' do
+            = ficon 'left-open-big'
+          = link_to "#{root_app_path}tech/", class: 'navbar-brand' do
+            Аренда спецтехники
+    .navbar.navbar-default.navbar-fixed-top.application-navbar.navbar-app
+      .container
+        .pull-left
+          -#= link_to root_app_path do
+          = link_to "#{root_app_path}tech/", class: 'navbar-brand' do
+            Аренда спецтехники
+        .pull-right
+          %button.navbar-toggle{type: "button", data: {toggle: :collapse, target: '#navbar-menu'}}
+            .icon-bar-btn
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+        .navbar-collapse.collapse#navbar-menu
+          %ul.nav.navbar-nav.pull-right
+            - nav_links = {'Каталог техники' => 'tech/', 'Подать объявление' => 'signup/', 'Помощь' => 'help/', 'Контакты' => 'contacts/'}
+            - nav_links.each_pair do |title, link|
+              %li
+                = link_to title, "#{root_app_path}#{link}"
+        .clearfix
+    .prototype-container
+      .container
+        = yield
+
+= partial 'layouts/javascripts'
+

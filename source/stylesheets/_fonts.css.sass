@@ -1,0 +1,46 @@
+$sansFontFamily: 'HelveticaNeue', 'Helvetica', Arial, sans-serif
+$serifFontFamily: 'Georgia', Geneva, serif
+$baseFontFamily: $sansFontFamily
+
+$headingsFontFamily: $sansFontFamily
+
+$baseFontSize: 14px
+$baseLineHeight: 18px
+
+$rem: $baseFontSize
+
+$articleFontSize: $baseFontSize
+$articleFontWeight: normal
+$articleLineHeight: $baseLineHeight
+$smallFontSize: 12px
+$smallHeaderSize: 13px
+
+body
+  line-height: 1.3em
+  font-family: $baseFontFamily
+  font-weight: 300
+
+p
+  font-size: $baseFontSize
+
+
+textarea,
+input
+  font-size: $rem
+
+@each $s in h1 3, h2 2.5, h3 2, h4 1.5, h5 1.2, h6 0.9
+  #{nth($s,1)}
+    font-size: $baseFontSize * nth($s,2)
+    font-weight: bold
+    strong
+      font-weight: 900
+    @media screen and (max-width: $screen-sm)
+      font-size: $baseFontSize * nth($s,2) / 1.3
+
+
+@each $weight in (light 100, normal 300, medium 500, bold 700, black 900)
+  .font-weight-#{nth($weight,1)}
+    font-weight: nth($weight,2)
+
+
+
